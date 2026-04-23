@@ -77,7 +77,8 @@ class BowlingTest {
 		assertEquals(24, game.score());
 
 	}
-	/*void test7() {
+	@Test
+	void test7() {
 		game.roll(1); //roll[0]=1
 		game.roll(2);  //roll[1]=2
 		
@@ -107,6 +108,10 @@ class BowlingTest {
 		game.roll(2);
 		game.roll(7);
 		assertEquals(122,game.score());
+		
+	}
+	/*@Test
+	void test5() {
 		
 	}*/
 
